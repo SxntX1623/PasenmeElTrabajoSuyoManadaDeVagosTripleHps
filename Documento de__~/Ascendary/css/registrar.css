@@ -1,0 +1,107 @@
+
+
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color:#df6eb462;
+    --sec-color:#4946fd;
+    --text-color:#171427;
+    --bg-color:#fff;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    /*genera espacio entre el logo y la lista*/
+    justify-content: space-between;
+    /*espacio arriba abajo a los lados*/
+    padding: 20px 80px;
+    /*le da color al header*/
+    background:var(--main-color);
+    /*le agrega una sombra al final*/
+    box-shadow: 0 5px 15px rgba(180, 27, 134, 0.493);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    position:sticky;
+}
+
+#navbar{
+    /*coloca los elementos horizonatles*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+h2{
+    text-align: center;
+}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 50%;
+  margin-bottom: 15px;
+  margin-top: 40px;
+  margin-left: 400px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: var(--main-color);
+  color: white;
+  min-width: 50px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 50%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: rgba(226, 123, 192, 0.521);
+  display: flex;
+  justify-content: center;
+  color: rgb(10, 10, 10);
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width:20%;
+  opacity: 0.9;
+  border-radius: 4px;
+  margin-left: 460px;
+  margin-top:20px;
+}
+
+.btn:hover {
+  opacity: 1;
+}

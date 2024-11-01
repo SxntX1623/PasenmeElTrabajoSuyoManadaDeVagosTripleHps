@@ -1,0 +1,556 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap");
+
+* {
+  margin: 0;
+  pad: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  /*colocarle color opscuro a las imagenes*/
+  background-image: linear-gradient(rgba(77, 73, 73, 0.418), rgba(93, 149, 214, 0.418)),
+    /*oscurecer la imagen*/ url(..//imagenes/pexels-sevenstormphotography-443399.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size:cover;
+  display: flex
+  background-position center bottom
+  background-repeat no-repeat
+  background-size cover
+  display flex
+  align-items  center
+  height  70vh
+  width  100%
+  /*pone la imagen en el centro*/
+  background-position  top 40% right 0;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+}
+
+
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+.menu .navbar ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: #fffdfc;
+  display: block;
+  font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+  color: rgba(0, 0, 0, 0.692);
+}
+#menu {
+  display: none;
+}
+
+.menu .menu-icono {
+  width: 25px;
+}
+
+.menu label {
+  cursor: pointer;
+  display: none;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.header-content h1 {
+  font-size: 45px;
+  line-height: 80px;
+  color: #fffdfc;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.header-content p {
+  font-size: 16px;
+  color: #c5c5c5;
+  padding: 0 20px;
+  margin-bottom: 25px;
+}
+
+.btn-1 {
+  /*se coloca porque es texto y se quiere poner margen*/
+  display: inline-block;
+  padding: 8px 35px;
+  background-color: #df723b93;
+  color: #f9fafc;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.btn-1:hover {
+  background-color: rgba(151, 90, 10, 0.473);
+}
+
+.coffee {
+  padding: 100px 0;
+  background-color: #e1e2e6;
+  position: relative;
+}
+
+.coffe-content {
+  text-align: center;
+}
+
+.coffe-content h2 {
+  font-size: 26px;
+  line-height: 70px;
+  color: #323337;
+  text-transform: uppercase;
+  padding: 5px 25px;
+}
+
+.txt-p {
+  font-size: 14px;
+  color: #414247;
+  padding: 0 250px;
+  margin-bottom: 35px;
+}
+
+.coffee-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coffee-1 {
+  padding: 25px;
+}
+/*la posision absoluta se basa de la de al aldo*/
+.coffee-1 img {
+  width: 200px;
+}
+
+.coffee-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.coffe-content .btn-1 {
+  margin-top: 50px;
+}
+
+.coffee-1 h3 {
+  color: #323337;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.services {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.363), rgba(1, 1, 17, 0.411)),
+    url(/imagenes/bg2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0;
+}
+
+.services-content {
+  text-align: center;
+}
+
+.services-content h2 {
+  font-size: 55px;
+  line-height: 70px;
+  color: #f9fafc;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.services-content p {
+  font-size: 16px;
+  color: #c5c5c5;
+  margin-bottom: 50px;
+  padding: 0 100px;
+}
+
+.services-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.services-1 {
+  padding: 0 100px;
+}
+
+.services-1 img {
+  width: 35px;
+  margin-bottom: 15px;
+}
+
+.services-1 h3 {
+  color: #cf9324;
+  font-size: 18px;
+}
+
+.general {
+  display: flex;
+}
+
+.general-1 {
+  width: 50%;
+  padding: 100px 250px 100px 100px;
+  background-color: #41424767;
+}
+
+.general-2 {
+  background-image: url(/imagenes/coffe-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+.general-3 {
+  background-image: url(../imagenes/coffee-2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+h2 {
+  font-size: 55px;
+  line-height: 70px;
+  color: #323337;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 16px;
+  color: #414247;
+  margin: 25px 0 45px 0;
+}
+
+.blog {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.blog-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-1 {
+  padding: 15px 55px;
+}
+
+.blog-1 img {
+  width: 250px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.blog-1 h3 {
+  font-size: 25px;
+  color: #323337;
+}
+
+.footer {
+  padding: 100px 0;
+  background-color: #000000;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link h3 {
+  font-size: 18px;
+  color: #f9fafc;
+  margin-bottom: 15px;
+}
+
+.link a {
+  font-size: 16px;
+  color: #c5c5c5;
+  display: block;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 991px) {
+  .menu {
+    padding: 30px;
+  }
+
+  .menu label {
+    display: initial;
+  }
+
+  .menu .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    display: none;
+  }
+
+  .menu .navbar ul li {
+    width: 100%;
+  }
+
+  #menu:checked ~ .navbar {
+    display: initial;
+  }
+
+  .header {
+    min-height: 0vh;
+  }
+
+  .header-content {
+    padding: 100px 30px;
+  }
+
+  .coffee {
+    padding: 30px;
+  }
+
+  .coffe-content h2 {
+    padding: 0;
+  }
+
+  .txt-p {
+    padding: 0;
+  }
+
+  .caffee-group {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .coffee-img {
+    display: none;
+  }
+
+  .services {
+    padding: 30px;
+  }
+
+  .services-content p {
+    padding: 0;
+  }
+
+  .services-group {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .services-1 {
+    margin-bottom: 25px;
+  }
+
+  .general {
+    flex-direction: column;
+  }
+
+  .general-1 {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .general-2,
+  .general-3 {
+    display: none;
+  }
+
+  .blog {
+    padding: 30px;
+  }
+
+  .blog-content {
+    flex-direction: column;
+  }
+
+  .blog-1 {
+    padding: 0;
+  }
+
+  .footer {
+    padding: 30px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap");
+
+body {
+  font-family: "Poppins", serif;
+  margin: 0;
+}
+
+/* Estilos del modal */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #c58a97;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 8px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #e7478579;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+  border-radius: 10px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+a{
+    color: #e9368f;
+}
+
+.modal {
+  display: none; /* Oculto por defecto */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4); /* Fondo oscuro */
+  padding-top: 60px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 20px;
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.animate {
+  animation: animatezoom 0.6s;
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+video{
+  border-radius: 20px;
+}
+
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:13px;
+}
+
+
+
